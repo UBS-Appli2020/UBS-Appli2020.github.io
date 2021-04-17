@@ -10,7 +10,13 @@
   margin: 10px;
   padding: 5px;
  }
-
+ /*********************************************** Parallax  ***********************************************/
+ .parallaxText{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
  /*********************************************** Typewriter ***********************************************/
 h1 {
   font-family: 'Lato', sans-serif;
@@ -141,3 +147,5 @@ to{border-right-color: transparent;}
   animation-delay: -5s;
   animation-duration: 20s;
 }
+
+
