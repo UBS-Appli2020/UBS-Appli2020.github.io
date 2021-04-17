@@ -63,7 +63,7 @@ p {
 
 /* Animation */
 .anim-typewriter{
-animation: typewriter 3s steps(40) 0.5s 1 normal both,
+animation: typewriter 0.75s steps(40) 0.5s 1 normal both,
 blinkTextCursor 500ms steps(2) infinite normal;
 }
 @keyframes typewriter{
