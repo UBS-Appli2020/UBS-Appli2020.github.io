@@ -5,6 +5,11 @@
     <title>Page not Found</title>
     <link rel="stylesheet" href="../style/styleJsPagesMenu.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script>
+      function backToPreviousPage() {
+        history.back();
+      }
+    </script>
   </head>
   <body>
     <!--Hey! This is the original version
@@ -54,9 +59,7 @@ of Simple CSS Waves-->
   <div class="content flex">
   </div>
   Content ends-->
-   
-      <div class ="container">
-        <a href="../index.html">Home</a>
-    </div>
+  <!--Button to previous Page-->
+  <button type="button" onclick="backToPreviousPage()" class="btn btn-primary">Back to previous page</button>
   </body>
 </html>
